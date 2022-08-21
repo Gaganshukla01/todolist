@@ -34,7 +34,7 @@ export default function Textarea(props) {
   <textarea className="form-control" value={Text} onChange={handlechange} id="my-box" rows="8"></textarea>
 </div>
 <button className="btn btn-primary mx-3" onClick={handleUpClick}>Conver To UpperCase</button>
-<button className="btn btn-primary" onClick={handlelwClick}>Conver To LowerCase</button>
+<button className="btn bn btn-primary" onClick={handlelwClick}>Conver To LowerCase</button>
 <button className="btn btn-primary mx-3" onClick={handleclearClick}>Click To Clear</button>
 
 
